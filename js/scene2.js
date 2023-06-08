@@ -10,15 +10,15 @@ const texts = [
     " construcción del tren trasandino que conectaba a Chile con Argentina'",
   "'La foto databa de 1872. En ella se podia ver a tres hombres amistosos, con las vias del tren al fondo, " +
     " a medio construir. Pero habia alguien más, alejado, que casi pasaba desapercibido: un hombre vestido" +
-    " de traje azul con galera'",
-  "Si si...muchas gracias por venir tan rápido. Venga conmigo, es aquí cerca.",
+    " de traje azul con galera'", //arreglar foto
+  "¿Quienes son los de la foto, señora?",
 ];
 
 const speaker = [
   "<b>Narrador</b>",
   "<b>Narrador</b>",
   "<b>Narrador</b>",
-  "<b>Alcalde</b>", ///meterlos en uno o dos for?
+  "<b>Cazador</b>", ///meterlos en uno o dos for?
 ];
 
 document.getElementById("name").innerHTML = speaker[page];
