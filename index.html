@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Visual Novel</title>
+  </head>
+  <body>
+    <img id="scene" src="./assets/pueblo1.webp" class="background" />
+
+    <div class="nametag" id="name"></div>
+    <div class="textpad" id="text"></div>
+
+    <button id="button" class="button-hidden" onclick="next()">
+      <b>Next</b>
+    </button>
+
+    <button class="arrow" onclick="nextDialogue()"></button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
