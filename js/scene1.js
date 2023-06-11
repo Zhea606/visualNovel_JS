@@ -31,6 +31,6 @@ function nextDialogue() {
     document.getElementById("text").innerHTML = texts[page];
     document.getElementById("name").innerHTML = speaker[page];
   } else {
-    button.className = "toggle";
+    button.className = "button-show";
   }
 }

@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Skranji:400,700"
+      rel="stylesheet"
+    />
     <title>Visual Novel</title>
   </head>
   <body>
-    <img id="scene" src="./assets/pueblo1.webp" class="background" />
+    <img id="scene" src="./assets/old_town.png" class="background" />
 
-    <div class="nametag" id="name"></div>
-    <div class="textpad" id="text"></div>
-
-    <button id="button" class="button-hidden" onclick="next()">
-      <b>Next</b>
-    </button>
-
-    <button class="arrow" onclick="nextDialogue()"></button>
-
+    <h1 class="title">ESCONDIDO</h1>
+    <section class="container-btn">
+      <div class="btn-play" onclick="play()">JUGAR</div>
+      <div class="btn-play">OPCIONES</div>
+      <div class="btn-play">SALIR</div>
+    </section>
     <script src="./main.js"></script>
   </body>
 </html>
