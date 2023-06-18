@@ -9,16 +9,12 @@ const texts = [
     "puesto que el jefe del pueblo le había avisado. Lo invitó a pasar' ",
 ];
 
-const speaker = [
-  "<b>Narrador</b>",
-  "<b>Narrador</b>",
-  ///meterlos en uno o dos for?
-];
+const speaker = ["<b>Narrador</b>", "<b>Narrador</b>"];
 
 document.getElementById("name").innerHTML = speaker[page];
 document.getElementById("text").innerHTML = texts[page];
 
-///next
+///***next
 function next() {
   window.location.href = "../../html/scene2.html";
 }

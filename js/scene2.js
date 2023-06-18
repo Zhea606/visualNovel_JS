@@ -12,32 +12,39 @@ const texts = [
     " a medio construir. Pero habia alguien más, alejado, que casi pasaba desapercibido: un hombre vestido" +
     " de traje azul con galera'", //arreglar foto
   "¿Quienes son los de la foto, señora?",
+  "Ah,esos son mi bisabuelo con sus dos amigos, cuando los contrataron para trabajar en la obra del" +
+    "tren trasandino. ¡Si hubieran sabido que lo iban a clausurar! Tal vez podrian haberse ido del pueblo a trabajar en la ciudad y ganar mejor.",
 ];
 
 const speaker = [
   "<b>Narrador</b>",
   "<b>Narrador</b>",
   "<b>Narrador</b>",
-  "<b>Cazador</b>", ///meterlos en uno o dos for?
+  "<b>Cazador</b>",
+  "<b>Mujer</b>",
 ];
+
+//llamar a los elementos del array: speaker[0] + texts[1]
+//speaker.push('otro personaje')
+//si agrego un dialogo más, tendré que modificar la cant de page < 3
 
 document.getElementById("name").innerHTML = speaker[page];
 document.getElementById("text").innerHTML = texts[page];
 
-///next
+///***next
 function next() {
-  window.location.href = "html/scene1.html";
+  window.location.href = "../../html/scene3.html";
 }
 
 function nextDialogue() {
   let scene = (document.getElementById("scene").src = "../assets/picture.jpg");
 
-  if (page < 3) {
+  if (page < 4) {
     scene.className = "picture";
     page++;
     document.getElementById("text").innerHTML = texts[page];
     document.getElementById("name").innerHTML = speaker[page];
   } else {
-    button.className = "toggle";
+    button.className = "button-show";
   }
 }

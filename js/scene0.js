@@ -18,7 +18,7 @@ const speaker = [
 document.getElementById("name").innerHTML = speaker[page];
 document.getElementById("text").innerHTML = texts[page];
 
-///next
+///***next
 function next() {
   window.location.href = "../html/scene1.html";
 }
