@@ -21,7 +21,7 @@ glasses.onmousemove = () => {
   //cambia puntero El jugador debe hacer click
 };
 
-//promesas
+///***promesas
 
 function mostrarMensaje() {
   return new Promise((resolve, reject) => {
